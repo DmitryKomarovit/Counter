@@ -13,5 +13,6 @@ addButton.addEventListener("click", function () {
 });
 
 reset.addEventListener("click", function () {
-  counterEL.innerText = COUNTER_INITIAL_VALUE;
+  counter = COUNTER_INITIAL_VALUE;
+  counterEL.innerText = counter;
 });
